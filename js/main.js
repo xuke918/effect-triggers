@@ -13,3 +13,7 @@ $('btn-show-hide').on('click', function() {
 $('btn-move').on('click', function() {
   $(.diamond).toggleClass('.show');
 });
+
+$('btn-collapse-expand').on('click', function() {
+  $(.panel).toggleClass('.');
+});
